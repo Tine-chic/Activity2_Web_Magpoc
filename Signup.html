@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Register</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+
+        .container1 {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 40px 30px;
+            width: 350px;
+            box-sizing: border-box;
+            text-align: left;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-weight: 700;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            border: 1px solid #ccc;
+            border-radius: 15px;
+            padding: 10px 15px;
+            margin-bottom: 7px;
+            font-size: 12px;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="password"]:focus {
+            border-color: #000;
+        }
+
+        label {
+            font-size: 14px;
+            color: #444;
+            display: flex;
+            align-items: center;
+            margin-bottom: 7px;
+            gap: 8px;
+        }
+
+        label input[type="checkbox"] {
+            width: 13px;
+            height: 13px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        label a {
+            color: #8b8b8b;
+            text-decoration: underline;
+        }
+
+        label a:hover {
+            color: #b14040;
+        }
+
+        button {
+            background-color: #000;
+            color: white;
+            border: none;
+            border-radius: 15px;
+            padding: 12px 0;
+            font-weight: 600;
+            font-size: 14px;
+            cursor: pointer;
+            transition: box-shadow 0.3s;
+        }
+
+        button:hover {
+            box-shadow: 0 0 10px 3px #00060c;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container1">
+        <h2 style="font-size: 30px;">Let's get started!</h2>
+        <form>
+            <label for="name">Full name</label>
+            <input type="text" placeholder="Enter your full name" required />
+            <label for="email">Email</label>
+            <input type="text" placeholder="Enter your email" required />
+            <label for="uname">Email</label>
+            <input type="text" placeholder="Enter your username" required />
+            <label for="password">Password</label>
+            <input type="password" placeholder="Enter your password" required />
+            <label for="password">Confirm Password</label>
+            <input type="password" placeholder="Confirm your password" required />
+            <label>
+                <input type="checkbox" name="terms" required />
+                <a href="termskineme.html" target="waley"> I accept the Terms and Conditions</a>
+            </label>
+            <button type="submit">Create Account</button>
+        </form>
+    </div>
+</body>
+
+</html>
