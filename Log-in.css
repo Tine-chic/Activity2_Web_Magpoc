@@ -1,0 +1,121 @@
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #000000;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 2px;
+    border: 1px solid #000000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px 30px;
+    width: 320px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+form {
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #000;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #000;
+}
+
+.button-primary {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s;
+}
+
+.button-primary:hover {
+    box-shadow: 0 0 10px 3px #00060c;
+}
+
+.button-third {
+display: inline-block;
+margin-top: 15px;
+font-size: 12px;
+color: #8b8b8b;
+background: transparent;
+border: none;
+cursor: pointer;
+text-decoration: underline;
+text-align: center;
+}
+
+.button-third:hover {
+    color: #b14040;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-bottom: 10px;
+}
